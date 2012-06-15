@@ -1,5 +1,5 @@
-# V2: Google App Engine for Python 2.7
-#     2. Hello, your_name
+# V3: Google App Engine for Python 2.7
+#     3. Sign guestbook v1--see what you wrote
 
 import cgi
 import webapp2
