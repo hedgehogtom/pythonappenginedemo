@@ -1,5 +1,5 @@
-# V5: Google App Engine for Python 2.7
-#     5. Sign guestbook v3--templating with Jinja
+# V6: Google App Engine for Python 2.7
+#     6. Added css stylesheets
 
 import jinja2
 import os
