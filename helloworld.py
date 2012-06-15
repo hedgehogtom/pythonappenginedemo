@@ -5,6 +5,7 @@ class MainPage(webapp2.RequestHandler):
         self.response.headers['Content Type'] = 'text/plain'
         self.response.out.write('Hello, webapp World!')
         self.response.out.write('Hi Tom this is Avner!')
+        self.response.out.write('This is Tom answering back!')
 
 app = webapp2.WSGIApplication([('/', MainPage)],
                               debug = True)
