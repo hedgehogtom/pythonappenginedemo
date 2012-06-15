@@ -1,5 +1,5 @@
 application: hedgehog-scratchpad
-version: 4
+version: 5
 runtime: python27
 api_version: 1
 threadsafe: true
@@ -7,3 +7,8 @@ threadsafe: true
 handlers:
 - url: /.*
   script: helloworld.app
+
+libraries:
+- name: jinja2
+  version: latest
+
